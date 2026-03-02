@@ -1,31 +1,5 @@
-#######################################
-# Syntax Coloring Map For WaktuLokal
-#######################################
-
-#######################################
-# Datatypes (KEYWORD1 - Warna Oranye)
-#######################################
-
-WaktuLokal  KEYWORD1
-HasilWaktu  KEYWORD1
-
-#######################################
-# Methods and Functions (KEYWORD2 - Warna Oranye/Cokelat)
-#######################################
-
-hitungSemua  KEYWORD2
-
-#######################################
-# Constants (LITERAL1 - Warna Biru)
-#######################################
-
-tglH  LITERAL1
-blnH  LITERAL1
-thnH  LITERAL1
-bulanH_str  LITERAL1
-pasaran  LITERAL1
-hariM  LITERAL1
-fullHijriah  LITERAL1
-displayHari  LITERAL1
-infoSunnah  LITERAL1
-infoBesok  LITERAL1
+WaktuLokal	KEYWORD1
+HasilWaktu	KEYWORD1
+hitungSemua	KEYWORD2
+infoSunnah	LITERAL1
+infoBesok	LITERAL1
