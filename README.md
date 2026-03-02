@@ -31,4 +31,12 @@
  * - data.displayHari : "Selasa Pon" (jika pasaran true) atau "Selasa" (jika false).
  * - data.tglH, data.blnH, data.thnH : Data angka tanggal Hijriah.
  * ==============================================================================
+
+ * ##  Contoh Penggunaan (Examples)
+Untuk membantu kawan-kawan pemula, library ini menyertakan folder `examples` yang bisa langsung dicoba melalui Arduino IDE (File > Examples > WaktuLokal):
+1. **Contoh_RTC_External**: Jika kawan menggunakan modul fisik DS3231 atau DS1307.
+2. **Contoh_RTC_Internal**: Khusus untuk pengguna ESP32 yang memanfaatkan internal RTC atau sinkronisasi waktu via internet (NTP).
+
+##  Kontribusi & Dukungan
+Library ini terbuka untuk siapa saja. Jika kawan-kawan memiliki ide fitur puasa sunnah lainnya atau menemukan bug, silakan buat *Issue* atau *Pull Request* di GitHub ini. Mari kita buat JWS Indonesia semakin cerdas!
    
