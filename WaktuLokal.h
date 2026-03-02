@@ -62,7 +62,7 @@ struct HasilWaktu {
 
 class WaktuLokal {
 private:
-    String cekPuasa(int hM, int tH, int bH) {
+  String cekPuasa(int hM, int tH, int bH) {
       if (hM == 1) return "Puasa Senin";
       if (hM == 4) return "Puasa Kamis";
       if (tH >= 13 && tH <= 15) {
@@ -71,8 +71,8 @@ private:
       if (bH == 1 && tH == 9) return "Puasa Tasu'a";
       if (bH == 1 && tH == 10) return "Puasa Asyura";
       if (bH == 10 && tH >= 2 && tH <= 7) return "Puasa Sunnah Syawal";
-      if (b_h == 12 && t_h == 8) return "Puasa Tarwiyah";
-      if (b_h == 12 && t_h == 9) return "Puasa Arafah";
+      if (bH == 12 && tH == 8) return "Puasa Tarwiyah";
+      if (bH == 12 && tH == 9) return "Puasa Arafah";  
       return "";
     }
 
@@ -134,3 +134,4 @@ public:
     }
 };
 #endif
+
