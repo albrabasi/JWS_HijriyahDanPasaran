@@ -3,7 +3,7 @@
  * ==============================================================================
  * LIBRARY : WaktuLokal.h (JWS Terpadu: Hijriah Kuwaiti & Pasaran Jawa)
  * AUTHOR  :  Ahmad AlBrabasi & Practical Developer JWS
- * VERSI   : 1.0 (Maret 2026)
+ * VERSI   : 1.1.0 (Maret 2026)
  * ==============================================================================
  * DESKRIPSI:
  * Library ini dirancang khusus untuk proyek Jadwal Sholat (JWS).
