@@ -28,6 +28,11 @@
  * - data.fullHijriah : "14 Sya'ban 1447 H"
  * - data.displayHari : "Selasa Pon" (jika pasaran true) atau "Selasa" (jika false).
  * - data.tglH, data.blnH, data.thnH : Data angka tanggal Hijriah.
+ * * Jenis Puasa yang Didukung:
+ * * Library ini secara otomatis mendeteksi:
+ * Puasa Rutin: Senin & Kamis.
+ * Puasa Bulanan: Ayyamul Bidh (kecuali hari tasyrik di bulan Dzulhijjah).
+ * Puasa Tahunan: Tasu'a, Asyura, Syawal (6 hari), Tarwiyah, dan Arafah.
  * ==============================================================================
  */
  #ifndef WAKTULOKAL_H
