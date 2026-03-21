@@ -30,6 +30,9 @@
  * - data.fullHijriah : "14 Sya'ban 1447 H"
  * - data.displayHari : "Selasa Pon" (jika pasaran true) atau "Selasa" (jika false).
  * - data.tglH, data.blnH, data.thnH : Data angka tanggal Hijriah.
+ * * * DATA OUTPUT BARU:
+ * - data.infoSunnah : Menampilkan jenis puasa jika ada (Hari ini).
+ * - data.infoBesok  : Pengingat puasa untuk keesokan harinya (H-1).
  * ==============================================================================
 
  * ##  Contoh Penggunaan (Examples)
