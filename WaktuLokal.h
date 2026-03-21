@@ -47,7 +47,7 @@ const char namaBulanHijriyah[][15] PROGMEM = {
 };
 
 const char namaPasaran[][8] PROGMEM = {
-  "Legi", "Pahing", "Pon", "Wage", "Kliwon"
+   "Pahing", "Pon", "Wage", "Kliwon","Pahing"
 };
 
 const char namaHariMasehi[][8] PROGMEM = {
