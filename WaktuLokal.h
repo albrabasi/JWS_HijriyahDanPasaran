@@ -112,7 +112,7 @@ public:
       if (tampilPasaran) {
         char bufP[10]; 
         // Offset jd_asli tanpa +1 agar sinkron dengan urutan Pahing di indeks 0
-        strcpy_P(bufP, namaPasaran[(long)(jd_asli) % 5]); 
+        strcpy_P(bufP, namaPasaran[(long)(jd_asli + 4) % 5]);
         res.pasaran = String(bufP);
         res.displayHari = res.hariM + " " + res.pasaran;
       } else {
